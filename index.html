@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Usuários</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="main.js"></script>
+    <script type="module" src="contatos.js"></script>
+</head>
+<body>
+    <h1>Gerenciador de Usuários</h1>
+
+    <div class="cadastro">
+
+        <h2>Cadastrar novo contato</h2>
+
+        <div class="campo">
+            <label for="fotoInput">Foto</label>        
+            <label for="fotoInput" class="upload">
+                 <!-- <img src="img/icon_foto.png" alt="Adicionar foto" class="icon_foto"> --> 
+                <input id="imagem" type="text" placeholder="URL da imagem">            
+            </label>
+        
+        </div>
+
+        <div class="campo">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" placeholder="Nome">
+        </div>
+
+        <div class="campo">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" placeholder="E-mail">
+        </div>
+
+     
+        <div class="campo">
+            <label>Endereço</label>
+            <div class="address">
+                <input id="cidade" type="text" placeholder="Cidade">
+                <input id="endereco" type="text" placeholder="Endereço">
+            </div>
+        </div>
+
+
+    </div>
+
+    <button class="buttonSalv" id="salvar">
+        Salvar
+    </button>
+
+
+</body>
+</html>
